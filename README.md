@@ -8,5 +8,4 @@ Sonic Pi est un environnement de codage en direct basé sur Ruby, conçu à l'or
 
 https://sonic-pi.net/
 
-Voici un petit exemple
 
