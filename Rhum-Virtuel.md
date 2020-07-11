@@ -5,6 +5,7 @@ Pour faire un Rhum Virtuel, il faut mettre:
 - Une dose d'océan parce que si il y a du rhum, l'océan n'est pas loin
 - Un rythme ou une musique spécifique pour donner une origine géographique
 - Des sons FX pour l'effet de l'alcool
+- Et sonic-pi bien sûr
 
 Ici c'est un Maloya, un rythme traditionnel de l'Ile de la Réunion.
 Alors, je vous ai fait un Rhum Virtuel de l'Ile de la Réunion.
@@ -14,6 +15,7 @@ To make a Virtual Rum, you have to put:
 - A dose of ocean because if there is rum, the ocean is not far
 - A specific rhythm or music to give a geographical origin
 - FX sounds for the effect of alcohol
+- And sonic-pi of course
 
 Here is Maloya, a rhythm of Reunion Island.
 So, I made for you a Virtual Rum from Reunion Island.
