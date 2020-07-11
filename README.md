@@ -1,6 +1,6 @@
 # script-sonic-pi
 
-Des scripts pour sonic-pi
+Des scripts pour sonic-pi avec quelques explications.
 
 ## Soni-pi
 
