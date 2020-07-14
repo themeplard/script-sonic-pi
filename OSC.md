@@ -43,3 +43,25 @@ with_fx :reverb, mix: 0.5 do
 end
 
 ```
+
+### OSC Controller
+
+![](https://lh3.googleusercontent.com/DK9taBmBlRmJV7u2F-tQnhaVYGOQ2TyFoyna_b-BkIbU6MVuOxFy0P-ksMASYiEt_7Y=s180-rw) 
+
+[OSC Controller](https://play.google.com/store/apps/details?id=com.ffsmultimedia.osccontroller&hl=fr)
+
+Jouer un sample sur sonic-pi par un bouton OSC Controller et contrôle l'amplitude avec un slider OSC Controller.
+Dans le script sonic-pi, remplacer `[VOTRE_IP:PORT]` par L'IP et le port OSC de votre smartphone.
+Ces informations devraient s'afficher dans la fenêtre Marqueurs de sonic-pi.
+
+
+````
+    live_loop :foo do
+      use_real_time
+          a = sync "/osc:[VOTRE_IP:PORT]/oscControl/button1"
+      b = get "/osc:[VOTRE_IP:PORT]/oscControl/slider1"
+      if  a[0] == 1
+        sample :bd_boom, amp: b[0]
+      end
+    end
+```
