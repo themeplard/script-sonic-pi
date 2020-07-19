@@ -9,6 +9,8 @@ Pour faire un Rhum Virtuel, il faut mettre:
 
 Ici c'est un Maloya, un rythme traditionnel de l'Ile de la Réunion.
 Alors, je vous ai fait un Rhum Virtuel de l'Ile de la Réunion.
+Voir les explications de la [fonction hexadecimal to binary rhythmic scheme](https://github.com/themeplard/script-sonic-pi/blob/master/hexadecimal-rythme.md)
+
 [![Soundcloud](https://download.seaicons.com/download/i80491/uiconstock/socialmedia/uiconstock-socialmedia-soundcloud.ico)](https://soundcloud.com/themeplard/rhum-virtuel)
 
 To make a Virtual Rum, you have to put:
