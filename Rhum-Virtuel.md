@@ -30,6 +30,7 @@ So, I made for you a Virtual Rum from Reunion Island.
 use_sched_ahead_time 2
 # tempo
 use_bpm 50
+
 # fonction hexadecimal to binary rhythmic scheme
 def schr2(num)
   num.hex.to_s(2).rjust(num.size*4, '0').split(//).collect  { |n| n == "1" }.ring
