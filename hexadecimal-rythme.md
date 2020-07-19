@@ -38,7 +38,7 @@ def schr(num)
   num.split(//).collect  { |n| n == "1" }
 end
 
-live_loop :euclid_beat do
+live_loop :beat do
   sample :elec_bong, amp: 1.5 if schr('10010010').ring.tick
   sample :perc_snap, amp: 0.8 if schr('10101101101').ring.look
   sample :bd_haus, amp: 2 if schr('1000').ring.look
@@ -71,7 +71,7 @@ def schr(num)
   num.split(//).collect  { |n| n == "1" }
  end
  
-live_loop :euclid_beat do
+live_loop :beat do
     sample :elec_bong, amp: 1.5 if schr2('92').ring.tick
     sample :perc_snap, amp: 0.8 if schr('10101101101').ring.look
     sample :bd_haus, amp: 2 if schr2('8').ring.look
