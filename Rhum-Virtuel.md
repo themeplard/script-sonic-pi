@@ -12,7 +12,7 @@ Alors, je vous ai fait un Rhum Virtuel de l'Ile de la Réunion.
 
 Voir les explications de la [fonction hexadecimal to binary rhythmic scheme](https://github.com/themeplard/script-sonic-pi/blob/master/hexadecimal-rythme.md)
 
-[![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/rhum-virtuel) Ecouter sur Soundcloud
+## [![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/rhum-virtuel) Ecouter sur Soundcloud
 
 ```
 # eviter Error: Timing Exception: thread got too far behind time
@@ -90,7 +90,7 @@ with_fx :reverb, mix: 0.5 do
   end
 end
 ```
-[![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/rhum-virtuel) Ecouter sur Soundcloud
+## [![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/rhum-virtuel) Ecouter sur Soundcloud
 
 To make a Virtual Rum, you have to put:
 
