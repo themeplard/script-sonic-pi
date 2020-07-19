@@ -16,15 +16,6 @@ Ecouter sur Soundcloud:
 
 [![Soundcloud](https://download.seaicons.com/download/i80491/uiconstock/socialmedia/uiconstock-socialmedia-soundcloud.ico)](https://soundcloud.com/themeplard/rhum-virtuel)
 
-To make a Virtual Rum, you have to put:
-
-- A dose of ocean because if there is rum, the ocean is not far
-- A specific rhythm or music to give a geographical origin
-- FX sounds for the effect of alcohol
-- And sonic-pi of course
-
-Here is Maloya, a rhythm of Reunion Island.
-So, I made for you a Virtual Rum from Reunion Island.
 
 ```
 # eviter Error: Timing Exception: thread got too far behind time
@@ -102,5 +93,14 @@ with_fx :reverb, mix: 0.5 do
   end
 end
 ```
+To make a Virtual Rum, you have to put:
+
+- A dose of ocean because if there is rum, the ocean is not far
+- A specific rhythm or music to give a geographical origin
+- FX sounds for the effect of alcohol
+- And sonic-pi of course
+
+Here is Maloya, a rhythm of Reunion Island.
+So, I made for you a Virtual Rum from Reunion Island.
 
 
