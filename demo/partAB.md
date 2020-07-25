@@ -21,7 +21,7 @@ Le `stop if beat > 290` permet de stopper le `live_loop`.
 
 ### A noter
 - L'utilisation de `with_swing` qui comme indique le nom, ajoute du swing sur les drums
-- L'utilisation de Fonction [hexadecimal/binary rhythmic scheme](https://github.com/themeplard/script-sonic-pi/blob/master/hexadecimal-rythme.md)
+- L'utilisation de la Fonction [hexadecimal/binary rhythmic scheme](https://github.com/themeplard/script-sonic-pi/blob/master/hexadecimal-rythme.md)
 
 ## [![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/partab) Ecouter sur Soundcloud
 
