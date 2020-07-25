@@ -1,5 +1,5 @@
 ## PartAB
-L'idée développée ici etait de faire un script permettant de jouer 2 séquences d'accords différentes pour un ensemble d'instruments.
+L'idée développée ici était de faire un script permettant de jouer 2 séquences d'accords différentes pour un ensemble d'instruments.
 ### live_loop :a
 Le `live_loop :a` représente les séquences d'accords. 
 - `6.times`= nombre de séquences
