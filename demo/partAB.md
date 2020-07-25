@@ -12,9 +12,12 @@ Le `live_loop :b` représente les suites d'accords.
 
 ### live_loop :foo
 Le `live_loop :b` représente l'orchestration.
+
 le `if X<4...else...end` permet de définir les accords des 2 séquences, le `X<4` permet le changement entre les 2.
-Le `if beat > 270` permet de définir la fin du morceau avec un fade out `set_mixer_control! amp: 0, amp_slide: 14`
-Le `stop if beat > 290` permet de stopper le `live_loop`
+
+Le `if beat > 270` permet de définir la fin du morceau avec un fade out `set_mixer_control! amp: 0, amp_slide: 14`.
+
+Le `stop if beat > 290` permet de stopper le `live_loop`.
 
 ### A noter
 - L'utilisation de `with_swing` qui comme indique le nom, ajoute du swing sur les drums
