@@ -13,25 +13,24 @@ Le `live_loop :b` représente les suites d'accords.
 ### live_loop :foo
 Le `live_loop :b` représente l'orchestration.
 le `if X<4...else...end` permet de définir les accords des 2 séquences, le `X<4` permet le changement entre les 2.
+Le `if beat > 270` permet de définir la fin du morceau avec un fade out `set_mixer_control! amp: 0, amp_slide: 14`
+Le `stop if beat > 290` permet de stopper le `live_loop`
 
 ### A noter
 - L'utilisation de `with_swing` qui comme indique le nom, ajoute du swing sur les drums
 - L'utilisation de Fonction [hexadecimal/binary rhythmic scheme](https://github.com/themeplard/script-sonic-pi/blob/master/hexadecimal-rythme.md)
 
+## [![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/partab) Ecouter sur Soundcloud
+
 ```
-use_sched_ahead_time 2
+use_sched_ahead_time 3
 use_random_seed 4
 use_bpm 50
 reset_mixer!
 
-# hexadecimal/binary rhythmic scheme
 def schr2(num)
-  num.hex.to_s(2).rjust(num.size*4, '0').split(//).collect  { |n| n == "1" }
+  num.hex.to_s(2).rjust(num.size*4, '0').split(//).collect  { |n| n == "1" }.ring
 end
-# 0=0000, 1=0001, 2=0010, 3=0011
-# 4=0100, 5=0101, 6=0110, 7=0111
-# 8=1000, 9=1001, a=1010, b=1011
-# c=1100, d=1101, e=1110, f=1111
 
 live_loop :a do |k|#sequences
   6.times do; X = tick; sleep 15; end
@@ -44,10 +43,10 @@ live_loop :b do #chords
 end
 
 live_loop :foo do  #samples/notes
-  if beat > 180
+  if beat > 270
     set_mixer_control! amp: 0, amp_slide: 14
   end
-  stop if beat > 195
+  stop if beat > 290
   puts X
   puts I
   if X<4
@@ -82,5 +81,5 @@ live_loop :foo do  #samples/notes
   end
   sleep 0.125
 end
-
 ```
+## [![Soundcloud](https://icon-icons.com/icons2/159/PNG/64/soundcloud_22554.png)](https://soundcloud.com/themeplard/partab) Ecouter sur Soundcloud
