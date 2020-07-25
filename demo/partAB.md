@@ -11,7 +11,7 @@ Le `live_loop :b` représente les suites d'accords.
 - `sleep 3`= durée d'un accord
 
 ### live_loop :foo
-Le `live_loop :b` représente l'orchestration.
+Le `live_loop :foo` représente l'orchestration.
 
 le `if X<4...else...end` permet de définir les accords des 2 séquences, le `X<4` permet le changement entre les 2.
 
