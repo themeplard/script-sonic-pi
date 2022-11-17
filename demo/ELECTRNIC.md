@@ -4,6 +4,8 @@
 
 Sonic Pi send midi to VCV RACK for speech synthesis with Audible Instruments, Macro Oscillator 2
 
+[Video youtube](https://youtu.be/TSmakawV1Ko)
+
 ![](https://patchstorage.com/wp-content/uploads/2022/11/ELECTRONIC-1024x576.png)
 
 ```
