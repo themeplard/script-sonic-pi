@@ -1,5 +1,7 @@
 # ELECTRONIC : Sonic Pi + VCV Rack
 
+![](https://patchstorage.com/wp-content/uploads/2022/11/ELECTRONIC-1024x576.png)
+
 [Download VCV RACK Patch](https://patchstorage.com/electronic/)
 
 Sonic Pi send midi to VCV RACK for speech synthesis with Audible Instruments, Macro Oscillator 2
